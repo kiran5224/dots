@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <style>
+    .button1,.button2,.button3,.button4{
+    padding: 30px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 7%;
+}
+
+img{
+    margin-left: 40%;
+}
+
+.button1:hover~img{
+    transform: rotate(120deg);
+}
+
+.button2:hover~img{
+    transform: skew(20deg);
+}
+
+.button3:hover~img{
+    translate: 100px 150px;
+}
+
+.button4:hover~img{
+    transform: scale(2);
+}
+
+
+   </style>
+ 
+
+    
+</head>
+<body>
+    <button class="button1">Rotate</button>
+    <button class="button2">Skew</button>
+    <button class="button3">Translate</button>
+    <button class="button4">Scale</button>
+    <br>
+    <br>
+    <img src="hamburger.jpg" alt="" height="200px" width="400px">
+</body>
+</html>
